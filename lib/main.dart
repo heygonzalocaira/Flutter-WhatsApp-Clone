@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Whatsapp Clone',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Whatsapp Clone =)'),
+      home: MyHomePage(title: 'Whatsapp Clone'),
     );
   }
 }
